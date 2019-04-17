@@ -7,6 +7,8 @@
 //
 
 #import "SKViewController.h"
+#import <SKCategory/SKCategory.h>
+
 
 @interface SKViewController ()
 
@@ -17,7 +19,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UILabel *testLable = [UILabel labelWithTitle:@"测试" color:[UIColor redColor] font:[UIFont systemFontOfSize:14]];
+    testLable.x = 100;
+    testLable.y = 200;
+    testLable.width = 200;
+    testLable.height = 40;
+    [self.view addSubview:testLable];
 }
 
 - (void)didReceiveMemoryWarning

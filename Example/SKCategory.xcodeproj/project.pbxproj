@@ -38,11 +38,11 @@
 
 /* Begin PBXFileReference section */
 		1249149C6507169F33795D22 /* Pods_SKCategory_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKCategory_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F4A9E35AF29EFBEA31F5723 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		346678D71A1583E8B1B4585A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2F4A9E35AF29EFBEA31F5723 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		346678D71A1583E8B1B4585A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C1E67076B6C2FB826AA6B9E /* Pods-SKCategory_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SKCategory_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SKCategory_Tests/Pods-SKCategory_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		4FF9F94161F8D93D7C0D1B28 /* Pods_SKCategory_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SKCategory_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A5C3A59B704DBE0B844BA57 /* SKCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SKCategory.podspec; path = ../SKCategory.podspec; sourceTree = "<group>"; };
+		5A5C3A59B704DBE0B844BA57 /* SKCategory.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SKCategory.podspec; path = ../SKCategory.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SKCategory_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKCategory_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -193,7 +193,6 @@
 				4C1E67076B6C2FB826AA6B9E /* Pods-SKCategory_Tests.debug.xcconfig */,
 				D8F13E0FB5D25BFF785D8039 /* Pods-SKCategory_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
